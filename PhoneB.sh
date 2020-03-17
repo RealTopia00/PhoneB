@@ -44,14 +44,14 @@ if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
-python3 bomber.py
+python3 PhoneB.py
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
 echo 'Call Bomb By RealTopia'> call.xxx
-python3 bomber.py call
+python3 PhoneB.py call
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
